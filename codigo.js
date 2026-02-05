@@ -1,8 +1,5 @@
-// IDs dos vídeos do YouTube na ordem das imagens g1, g2...
 const videoIds = [
-    '4emCT75p9f8', 'SRdjnQ2y5dw', 'ID_DO_VIDEO_3', 
-    'ID_DO_VIDEO_4', 'ID_DO_VIDEO_5', 'ID_DO_VIDEO_6'
-    // ... complete até o 12
+    '4emCT75p9f8', 'SRdjnQ2y5dw',
 ];
 
 function render() {
