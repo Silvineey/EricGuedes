@@ -41,7 +41,7 @@ h1{
     position: absolute;
 }
 main{
-    background: url('assets/backgrounde.png');
+    background: url('./assets/backgrounde.png');
     background-size: cover;
     height: 100%;
     position: relative;
