@@ -9,7 +9,7 @@ function render() {
 
     for (let i = 1; i <= 12; i++) {
         const img = document.createElement('img');
-        img.src = `assets/g${i}.png`;
+        img.src = `./assets/g${i}.png`;
         img.onclick = () => {
             const videoId = videoIds[i-1];
             iframe.src = `https://www.youtube.com/embed/${videoId}?autoplay=1`;
@@ -25,7 +25,7 @@ function render() {
     const caixa2 = document.getElementById('caixa2');
     for (let e = 1; e < 5; e++) {
         const emp = document.createElement('img');
-        emp.src = `assets/logo${e}.png`;
+        emp.src = `./assets/logo${e}.png`;
         caixa2.append(emp);
     }
 }
